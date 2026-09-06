@@ -1,0 +1,31 @@
+# ProtoTool — 빌드가 없는 정적 파일 툴이라 무시할 것이 적다
+
+# 스크립트에 패키지를 쓰게 되면
+node_modules/
+package-lock.json
+
+# 실행 부스러기
+*.log
+.utmp/
+
+# 손으로 돌려 본 결과물 (정본은 게임 저장소의 Prototypes/ 에 있다)
+out/
+*.local.html
+
+# OS·편집기 부스러기
+.DS_Store
+Thumbs.db
+*.swp
+
+# AI 도구 개인 로컬 설정
+.claude/settings.local.json
+
+# 로컬 전용 문서 (저장소에 올리지 않는다)
+*.local.md
+
+# 파이썬 훅 부스러기
+__pycache__/
+*.pyc
+
+# 금칙어 목록 — 낱말 자체가 유출이라 올리지 않는다 (.example 만 올린다)
+.claude/hooks/public_guard.words
